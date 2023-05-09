@@ -1,5 +1,6 @@
-import 'mypic' 
+import mypic from "../Assets/download.jpg" 
 <div id="Projects">
+<img src={mypic} alt="Projects"></img>
 <h3>Projects
  <a href="https://kingnick917.github.io/homework3/" ></a>
  <a href="https://kingnick917.github.io/homework4/" ></a>
