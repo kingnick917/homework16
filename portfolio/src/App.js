@@ -1,12 +1,13 @@
 import './App.css';
-import './components/Projects'
-import './components/about'
-import './components/header'
-import './components/portfolio'
+import PortfolioContainer from "./components/PortfolioContainer";
 function App() {
   return (
-   
+    <div className="App-header">
+      <PortfolioContainer/>
+    </div>
   );
+
+
 }
 
 export default App;
