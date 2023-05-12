@@ -1,17 +1,17 @@
 import mypic from "../Assets/download.jpg"
-
+import link from "./link";
+import Link from "./link";
+import { useState } from "react";
 function Projects() {
+    const [show,setShow]=useState(false)
+    const handleClick=()=>{setShow(!show)
+    console.log(show)}
     return (
         <div id="Projects">
-            <button>
+            <button onClick={handleClick}>
             <img src={mypic} alt="Projects"></img>
             </button>
-            <h3 id='1'>
-                <a href="https://kingnick917.github.io/homework3/" ></a>
-                <a href="https://kingnick917.github.io/homework4/" ></a>
-                <a href="https://kingnick917.github.io/homework5/" ></a>
-                <a href="https://infinite-dusk-00763.herokuapp.com/" ></a>
-            </h3>
+             {show?<Link />:<></>}
         </div>
 
     )

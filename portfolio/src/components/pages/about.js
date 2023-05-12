@@ -7,6 +7,7 @@ return(
     now sql.i am going to learn Object-Relational Mapping,Model-View-Controller (MVC),Computer Science for
     JavaScript,NoSQL Day,Progressive Web Applications (PWA),React and MERN .
   </p>
+  <p> i like video games </p>
  </div> 
 )
 }
