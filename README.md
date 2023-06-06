@@ -9,6 +9,6 @@
 ![Regex](./src/Assets/Capture.PNG)
 ![Regex](./src/Assets/Capture2.PNG)
 ![Regex](./src/Assets/Capture3.PNG)
-
+![Regex](./src/Assets/Capture.PNG)
 ### deploysite
 https://kingnick917.github.io/portfolio/
